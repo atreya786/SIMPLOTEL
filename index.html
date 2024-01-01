@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Order</a></li>
+          <li><a href="#">Food</a></li>
+          <li><a href="#">Restaurant</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li class="menu-btn"><img src="./assets/menu-bar.png" alt="Menu" /></li>
+        </ul>
+      </div>
+    </nav>
+    
+    <header class="header">
+
+      <div class="banner">
+        <div class="banner-item-1">
+          <div class="banner-text-1">LOREM IPSUM</div>
+          <div class="banner-text-2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id
+            est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus
+            euismod lorem in, sollicitudin viverra eros. Donec dictum luctus
+            quam ut tristique. Curabitur nec faucibus purus. Quisque congue sem
+            nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac
+            porta viverra.
+          </div>
+          <div class="banner-btn">Click Me</div>
+        </div>
+        <div class="banner-item-2">
+          <img src="./assets/pexels-robin-stickel-70497.jpg" alt="banner-image" />
+        </div>
+      </div>
+
+      <div class="banner-2">
+        <div class="banner2-item-1">
+          <div class="left-box">
+            <div class="left-box-1">
+              <img class="image1" src="./assets/pexels-rachel-claire-6752433.jpg" alt="logo" />
+            </div>
+            <div class="left-box-2">
+              <img class="image1" src="./assets/pexels-eva-bronzini-6141651.jpg" alt="logo" />
+            </div>
+          </div>
+          <div class="right-box">
+            <img class="image2" src="./assets/pexels-mister-mister-3434523.jpg" alt="logo" />
+          </div>
+        </div>
+        <div class="banner2-item-2">
+          <div class="banner-box">
+            <div class="banner-text-2">LOREM IPSUM</div>
+            <div class="banner-text-1">LOREM IPSUM SET ADEMIR</div>
+            <div class="banner-btn">
+              <div class="banner2-btn">Click</div>
+              <div>
+                <img
+                  class="banner-arrow"
+                  src="./assets/icons8-arrow-30.png"
+                  alt="arrow"
+                  height="20px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <script>
+      const menuHamburger = document.querySelector(".menu-btn");
+      const navContainer = document.querySelector(".nav-container");
+    
+      menuHamburger.addEventListener("click", () => {
+        navContainer.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
